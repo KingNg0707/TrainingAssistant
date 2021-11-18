@@ -8,6 +8,7 @@ import sys
 
 app = Flask(__name__)
 app.secret_key = '佐久間さん可愛い'
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 
 #画像の準備
 image_ptrn = re.compile('.*[.](jpg|jpeg|png|bmp|gif)$')
