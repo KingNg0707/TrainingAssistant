@@ -10,7 +10,7 @@ import os
 
 def getUrls( word, key, skip=0, urls=[] ):
     
-    print "Samples:", len(urls)
+    print("Samples:", len(urls))
     prefix = 'https://api.datamarket.azure.com/Data.ashx/Bing/Search/v1/Image'
     params = {
             'Query': "'%s'" % word , 
